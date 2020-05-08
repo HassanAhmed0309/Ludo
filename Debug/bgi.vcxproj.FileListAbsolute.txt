@@ -1,4 +1,0 @@
-E:\CFP(2)\BGI2010\BGI2010\bgi\Debug\bgi.exe
-E:\CFP(2)\BGI2010\BGI2010\bgi\Debug\bgi.pdb
-E:\CFP(2)\Ludo class\bgi\Debug\bgi.exe
-E:\CFP(2)\Ludo class\bgi\Debug\bgi.pdb
