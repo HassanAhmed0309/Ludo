@@ -1,14 +1,14 @@
 #pragma once
 #include"Token.h"
-class Token1:virtual public Token
+#include"Graphics/graphics.h"
+#include"Coordinates.h"
+class Token1:public Token
 {
 public:
 	void Draw()
 	{
-		//floodfill(T.C.getx() - 2, T.C.gety() - 2, 6);
-		//setcolor(14);
-		setfillstyle(1, YELLOW);
-		bar(C.Y + 10, C.X + 10, C.Y + 30, C.X + 30);
+		setfillstyle(1, BLACK);
+		bar(C.getx() + 10, C.gety() + 20, C.getx() + 30, C.gety() + 35);
 	}
 };
 

@@ -5,11 +5,11 @@ class Token7:virtual public Token
 public:
 	void Draw()
 	{
-		setcolor(YELLOW);
-		setfillstyle(1, YELLOW);
-		arc(C.Y + 20, C.X + 20, 0, 180, 15);
-		line(C.Y + 6,C.X + 20,C.Y + 34,C.X + 20);
-		floodfill(C.Y+ 20,C.X + 19, YELLOW);
+		setcolor(LIGHTGRAY);
+		setfillstyle(1, LIGHTGREEN);
+		arc(C.X + 20, C.Y + 25, 0, 180, 10);
+		line(C.X + 6,C.Y + 20,C.X + 34,C.Y + 20);
+		floodfill(C.X+ 20,C.Y + 19, LIGHTGRAY);
 	}
 };
 

@@ -1,9 +1,9 @@
 #pragma once
 class Coordinates
 {
-	int X;
-	int Y;
+
 public:
+	int X, Y;
 	Coordinates() :X(0), Y(0)
 	{
 
