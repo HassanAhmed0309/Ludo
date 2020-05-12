@@ -135,9 +135,6 @@
     <ClInclude Include="Ludo_4Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Token.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -168,6 +165,15 @@
     <ClInclude Include="Dice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ludo_6Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Player1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -184,12 +190,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Player6.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Controls.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Ludo_6Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
