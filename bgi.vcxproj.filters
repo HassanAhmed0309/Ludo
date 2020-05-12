@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{4f5bd97d-2510-460b-928b-0607013d0635}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bgi.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Graphics\bgi.rc">
+      <Filter>Header Files\Graphics</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics\bgiout.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\dibutil.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\drawing.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\file.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\misc.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\mouse.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\palette.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\text.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\winbgi.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\winthread.cxx">
+      <Filter>Header Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ludo_4Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ludo_6Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\bgi.suo">
+      <Filter>Header Files\Graphics</Filter>
+    </None>
+    <None Include="Graphics\bgi.v12.suo">
+      <Filter>Header Files\Graphics</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics\dibapi.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\dibutil.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\resource.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\winbgi.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\winbgim.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\winbgitypes.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ludo_4Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ludo_6Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
